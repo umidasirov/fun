@@ -1,0 +1,40 @@
+#myButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#myButton{
+    width: 700px;
+    font-size: 70px;
+    height: 400px;
+}
+.ButtonYes{
+    width: 700px;
+    font-size: 70px;
+    height: 400px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+}
+@media (max-width: 480px) {
+    body{
+        overflow: hidden;
+    }
+    #myButton{
+        width: 100px;
+        height: 50px;
+        font-size: 30px;
+    }
+    .ButtonYes{
+        width: 100px;
+        height: 50px;
+        font-size: 30px;
+    }
+    h1{
+        text-align: center;
+        font-size: 30px;
+    }
+}
